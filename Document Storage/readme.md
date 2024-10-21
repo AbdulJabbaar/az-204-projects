@@ -1,6 +1,6 @@
 Develope a platform where users can upload documents, assign tags for easier organization, and retrieve them. Set expiry dates on shared links. Utilize the Azure CDN to deliver content efficiently to users across various region.
 
-## Infrastructure
+# Infrastructure
 <ol>
   <li>Azure Blob Storage (For storing documents)</li>
   <li>Azure Cosmos DB (For metadata, tags, and expiring link details)</li>
@@ -8,7 +8,7 @@ Develope a platform where users can upload documents, assign tags for easier org
   <li>Azure CDN (To efficiently deliver documents)</li>
 </ol>
 
-## Implementation Guide
+# Implementation Guide
 1. Design Document Uploader Interface:
    - Create a user-friendly interface for document uploads and tagging.
 2. Azure Blob Storage Setup: 
@@ -35,3 +35,6 @@ Develope a platform where users can upload documents, assign tags for easier org
    -
 10. Setup a CI/CD pipeline for your application and Function.
 11. Setup Application insights and Azure monitor
+
+# Diagram
+![doc](./doc-app.png)
