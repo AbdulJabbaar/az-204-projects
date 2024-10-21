@@ -20,5 +20,7 @@ A web application that allows users to track weather updates in real-time for th
   <li>Setup a CI/CD pipeline for your application and Function.</li>
   <li>Setup a CI/CD pipeline for your application and Function.</li>
   <li>Setup Application insights and Azure monitor</li>
-  
 </ol>
+
+# Diagram
+![image info](./weather-app.png)
